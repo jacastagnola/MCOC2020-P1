@@ -4,4 +4,4 @@ Proyecto 1 MCOC
 
 # Entrega1 - Integración de ecuaciones diferenciales
 
-![balistica](https://user-images.githubusercontent.com/69158084/91108724-c1b22c00-e646-11ea-8df1-1197c465e585.png)
+![balistica](https://user-images.githubusercontent.com/69158084/91109899-59654980-e64a-11ea-95a0-d374161f655a.png)
