@@ -22,7 +22,7 @@ Usando la condición inicial (primer OSV) de su archivo, compare la solución en
 
   •Se observa que la deriva entre eulerint y odeint da un valor de 18830 km
   
-  •Los tiempos en que se demora eulerint y odeint respectivamente son 0.31965710000076797 seg y 0.09985499999311287 
+  •Los tiempos en que se demora eulerint y odeint respectivamente son 0.31965710000076797 seg y 0.09985499999311287 seg 
   
   • Se observa que a medida que aumenta el tiempo la solucion comienza a diverger. Al poser pocas subdivisiones eulerint es menos preciso  que odeint
   
