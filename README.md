@@ -42,3 +42,7 @@ Se realiza el analisis de convergencia de los resultados entre odeint y eulerint
 
 
 # Entrega Final Codigo
+
+• Al modificar el codigo y agregarle mas correcciones del modelo geopotencial se logra obtener una mejora. La deriva disminuyo casi la mitad a un valor de 370 metros en comparacion con solo la implementacion de dos polinomios de legendre. En el codigo se observa que se utiliza la funcion de Numpy scipy.special.lpmn para asi hacer mas facil el calculo de los polinomios y hacer el codigo mas corto. Al ir aumentando la cantidad de polinomios de legendre se observa una mejora pero hasta cierto punto ya que independiente de agregar mas polinomios la solucion no mejora quizas se debio tomar algun factor mas para mejorar el codigo por lo que se deja con 10 polinomios de legendre. Tambien al agregar muchos polinomios se produce la advertencia overflow encountered in double_scalars lo que nos dice que los valores calculados salen del rango de lo que puede hacer Numpy. Finalmente podemos decir que que aplicar el modelo geopotencial hizo una mejora significativa en la prediccion. Ademas si se quisera seguir mejorando el modelo se deberia buscar algun otro factor que pueda afectar la orbita del satelite tal como otros objetos en orbita de gran masa que afectan la orbita del satelite como la luna o otros satelites la estacion espacial en pocas palabra algun objeto de masa considerable y a una distacia cercana en algun punto de la orbita del Sentinel.
+
+
